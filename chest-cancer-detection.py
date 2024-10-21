@@ -17,8 +17,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
 from tensorflow.keras.callbacks import EarlyStopping
 
-#path to the dataset
-base_dir = '/Users/hanady/Desktop/Data'
+#enter path to the dataset
+base_dir = #~/Data/
 
 train_dir = os.path.join(base_dir, 'train')
 valid_dir = os.path.join(base_dir, 'valid')
@@ -153,7 +153,7 @@ plt.show()
 #data augmentation
 
     #rename class folders in test set
-test_dir = '/Users/hanady/Desktop/Data/test' #path to test directory
+test_dir = #'~/Data/test' #path to test directory
 
     #define mapping between current test folder names and desired train/valid names
 class_name_mapping = {
