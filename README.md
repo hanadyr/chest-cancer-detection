@@ -28,6 +28,12 @@ The project includes the following files and directories:
 
 Dataset
 
+The dataset used in this project can be found on Kaggle:
+
+- [Chest CT-Scan Images Dataset | Kaggle](https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images)
+
+Please download the dataset from the above link, extract it, and place it in the `data/` folder within the project directory.
+
 The dataset is structured into four folders:
 	•	Adenocarcinoma
 	•	Large Cell Carcinoma
@@ -43,17 +49,17 @@ To run the project locally, you'll need to set up the environment and install th
 
 Steps to set up the environment:
 
-	•Clone the repository:
+	#Clone the repository:
 		git clone https://github.com/YOUR_USERNAME/chest-cancer-detection.git
 		cd chest-cancer-detection
-	•Create and activate a virtual environment:
+	#Create and activate a virtual environment:
 		python3 -m venv venv
 		source venv/bin/activate #on macOS/LLinux
 		#Or, on Windows:
 		#venv\Scripts\activate
-	•Install the dependencies:
+	#Install the dependencies:
 		pip install -r requirements.txt
-	•Download the dataset: Place the dataset in the /data folder, ensuring the structure 		follows the project’s requirements (i.e., having subfolders for training, validation, 		and test sets).
+	#Download the dataset: Place the dataset in the /data folder, ensuring the structure 		follows the project’s requirements (i.e., having subfolders for training, validation, 		and test sets).
 
 
 How to Run the Project
@@ -94,7 +100,7 @@ The project includes several visualizations to analyze the dataset and the model
 Future Work
 	•	Explore other deep learning architectures such as ResNet, VGG, etc.
 	•	Improve the data augmentation techniques to enhance the CNN model’s generalization.
-	•	Investigate class imbalance issues and implement solutions like oversampling or class 		weighting.
+	•	Investigate class imbalance issues and implement solutions like oversampling or 		class weighting.
 
 References
 	•	Kaggle Chest Cancer CT-Scan Dataset
