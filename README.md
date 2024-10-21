@@ -28,6 +28,12 @@ The project includes the following files and directories:
 
 Dataset
 
+The dataset used in this project can be found on Kaggle:
+
+- [Chest CT-Scan Images Dataset | Kaggle](https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images)
+
+Please download the dataset from the above link, extract it, and place it in the `data/` folder within the project directory.
+
 The dataset is structured into four folders:
 	•	Adenocarcinoma
 	•	Large Cell Carcinoma
