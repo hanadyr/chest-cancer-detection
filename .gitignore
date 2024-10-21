@@ -1,0 +1,14 @@
+# Ignore macOS system files
+.DS_Store
+.localized
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and virtual environment
+logs/
+venv-tf/
+
+# Ignore any temporary files
+~$*.docx
+
